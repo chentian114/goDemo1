@@ -5,7 +5,7 @@ import (
 	"github.com/xluohome/phonedata"
 )
 func QueryPhone(){
-	phone:="18142816065"
+	phone:="18146866065"
 	fmt.Println(phone)
 
 	pr, err :=phonedata.Find(phone)
