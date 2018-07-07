@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"chentian114/goDemo1/phone"
+	"github.com/chentian114/goDemo1/phone"
 )
 func main() {
 	fmt.Println("Hello Wrold!")
