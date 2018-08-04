@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/chentian114/goDemo1/phone"
+	"github.com/chentian114/goDemo1/verify"
 )
 func main() {
 	fmt.Println("Hello Wrold!")
@@ -13,4 +14,9 @@ func main() {
 	fmt.Println(arr)
 
 	phone.QueryPhone()
+	fmt.Println(verify.CreateDefaultRandCode())
+	fmt.Println(verify.CreateRandCode(11))
+	for i:=0;i<10 ;i++  {
+		fmt.Println(verify.GetRand())
+	}
 }
